@@ -1,0 +1,4 @@
+HEADERS = {
+    'Client-Id': '<client_id>',
+    'Authorization': 'OAuth <token>',
+}
