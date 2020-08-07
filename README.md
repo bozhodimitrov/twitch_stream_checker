@@ -1,4 +1,4 @@
-# twitch_stream_checker
+# Twitch Stream Checker
 Polling the twitch GraphQL API for fake streamers in particular category and auto reporting them.
 
 # Usage
