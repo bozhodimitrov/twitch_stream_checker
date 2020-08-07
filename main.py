@@ -203,7 +203,7 @@ def check_streams(detected_accounts, report=False, debug=False):
 
 
 def main(debug=False):
-    parser = ArgumentParser(description='Streams Checker')
+    parser = ArgumentParser(description='Twitch Stream Checker')
     parser.add_argument(
         '-r', '--report', action='store_true', help='send report',
     )
