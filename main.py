@@ -1,5 +1,4 @@
 from copy import deepcopy
-from contextlib import suppress
 from time import sleep
 from json import JSONDecodeError
 from json import dumps as json_dumps
@@ -216,5 +215,7 @@ def main(debug=False):
 
 
 if __name__ == '__main__':
-    with suppress(KeyboardInterrupt):
+    try:
         exit(main())
+    except KeyboardInterrupt:
+        rasie SystemExit(130)
